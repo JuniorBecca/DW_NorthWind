@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+    - name: dwnorthwind
+      tables:
+        - name: orders
+          description: Tabela de Pedidos
+        - name: customers
+          description: Tabela de Clientes
+          columns:
+           - name: customer_id
+             description: Primary Key da tabela de Clientes
+             tests:
+              - unique
+              - not_null
