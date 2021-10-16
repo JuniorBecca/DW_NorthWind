@@ -26,5 +26,3 @@ with
     )
 
 select * from orders_with_sk
-
---https://youtu.be/a3sleOgEm28?t=10198 momento do vídeo
