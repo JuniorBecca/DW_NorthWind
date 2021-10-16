@@ -26,5 +26,3 @@ with
     )
 
 select * from orders_with_sk
-
--- teste para o pull request
